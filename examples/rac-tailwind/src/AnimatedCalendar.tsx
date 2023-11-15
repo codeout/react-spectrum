@@ -24,7 +24,7 @@ export function AnimatedCalendar() {
 
   return (
     <Calendar aria-label="Appointment date" className="w-fit pt-4">
-      {(state) => (
+      {({state}) => (
         <>
           <header className="flex items-center pb-4 px-3 sm:px-1 font-serif w-full">
             <Heading className="flex-1 font-semibold text-2xl ml-2" />
